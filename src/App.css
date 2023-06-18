@@ -27,7 +27,35 @@
 .App-link {
   color: #61dafb;
 }
+/* Styles.css */
+.green-box {
+    background-color: #85e385;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  
+  .green-list {
+    list-style-type: none;
+    margin-top: 3px;
+    margin-right: 20px;
+    padding-right: 10px;
+    background-color: #85e385;
+    color: black;
+    border-radius: 5px;
+  }
+  
 
+  .green-list li {
+    
+    transition: background-color 0.2s, color 0.2s; /* Smooth transition */
+  }
+  
+  .green-list li:hover {
+    background-color: white;
+    color: black;
+  }
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
